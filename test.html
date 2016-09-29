@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BlackJack</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>BlackJack</h1>
+		<h2>Instructions: A simple card game where the objective is to get as close to 21 without going over</h2>
+		<div style="text-align:center;" class="moneySound">
+			<button id="moneyMoney">Stop Music :(</button>
+		</div>
+		<div class="dealerCards"></div>
+		<div id="yourHand"></div>
+		<div id="dealerHand"></div>
+		<div id="yourScore">
+			<p>Hand Total:  </p>
+				<span class="digits">0</span>
+			<br>
+			<p>Wins:  </p>
+				<span id="wins">0</span>
+			<br>
+			<p>Losses:  </p>
+				<span id="losses">0</span>
+		</div>
+		<div style="text-align:center;">
+			<button id="deal">Deal</button>
+			<button id="hitMe">Hit</button>
+			<button id="stand">Stand</button>
+		</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="test.js"></script>
+</body>
+</html>
