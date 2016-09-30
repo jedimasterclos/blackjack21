@@ -64,6 +64,9 @@ h2{
   justify-content: flex-start;
   align-items: baseline;
 }
+.card:hover {
+  background: ;
+}
 .dCard {
   background: white;
   width:  106px;

@@ -194,7 +194,6 @@ var BlackJack = (function($){
         buttonVis();
     });
 
-
     $("#hitMe").on('click', function(){
         yourHand.hitMe();
         if(yourHand.getHand().length >= 5 || yourHand.score() > 21){
